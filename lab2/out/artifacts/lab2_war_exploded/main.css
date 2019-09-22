@@ -1,0 +1,87 @@
+*{
+    margin: 0; padding: 0;
+}
+p{
+    margin: 10px auto;
+}
+header{
+    font: 13pt Serif;
+    height: fit-content;
+    padding: 25px 70px;
+    text-align: end;
+}
+
+form{
+    padding: 10px 50px;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.block{
+    margin: 20px auto;
+    max-width: 800px;
+    min-height: 100px;
+    text-align: center;
+    border-radius: 15px;
+    height: fit-content;
+    padding: 15px;
+}
+#margin{
+    margin-bottom: 50px;
+}
+
+button{
+    width: 100px; height: 30px;
+}
+
+label{
+    user-select: none;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+}
+tr {
+    height: 20px;
+    padding: 3px;
+}
+td {
+    padding: 3px
+}
+th {
+    padding: 3px;
+    min-width: 20px;
+}
+
+.block img{
+    border-radius: 10px;
+}
+
+input{
+    margin: 10px 12px;
+    width: 140px;
+}
+
+input[type]{
+    height:30px; width: 40px;
+}
+
+input[type=text]{
+    height: 30px;
+    max-width: 50px;
+}
+.check-box-block label{
+    height:30px; width: 40px;
+    margin: 10px 25px 0;
+}
+.check-box-block input{
+    margin: 0 12px;
+}
+
+#submit{
+    margin-top: 10px;
+}

@@ -1,0 +1,46 @@
+header{
+    background : linear-gradient(150deg, #3197a4, #1f2030);
+    color: white;
+}
+
+form{
+    color: #1f2030;
+    background-color: #EFFDFF;
+    border: #1f2030 2px solid;
+}
+
+.block{
+    background : linear-gradient(120deg,#9DC0C4,#296573);
+    color: #EFFDFF;
+}
+
+.invalid_field{
+    background-color: lightcoral;
+}
+.valid_field{
+    background-color: aquamarine;
+}
+a{
+    color: white;
+}
+
+/*Селектор потомства*/
+.block img{
+    border: 2px solid #1f2030;
+}
+
+/*Селектор псевдокласса*/
+:visited{
+    color: #296573;
+}
+
+/*Colors*/
+table{
+    color: white;
+}
+td {
+    border: 1px solid black;
+}
+th {
+    border: 1px solid black;
+}
