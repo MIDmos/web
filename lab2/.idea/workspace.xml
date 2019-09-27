@@ -7,34 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f019bc10-f03f-4017-8053-062694440d78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2/lab2.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2/lab2.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/AreaCheckServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/AreaCheckServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/AttributeSetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/AttributeSetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/ControllerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/LoginBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/ResultsHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/ResultsHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/AreaCheckServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/server/AreaCheckServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/AttributeSetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/server/AttributeSetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/server/ControllerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/LoginBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/server/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/ResultsHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/server/ResultsHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/AreaCheckServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/AreaCheckServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/LoginBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ResultsHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ResultsHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/validator.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.6" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab2.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -216,6 +190,8 @@
       <workItem from="1569437528339" duration="8040000" />
       <workItem from="1569497821303" duration="17493000" />
       <workItem from="1569569741699" duration="1926000" />
+      <workItem from="1569604057909" duration="712000" />
+      <workItem from="1569605042627" duration="273000" />
     </task>
     <servers />
   </component>
