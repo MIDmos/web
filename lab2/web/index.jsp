@@ -1,4 +1,9 @@
 <%@ page pageEncoding="UTF-8" %>
+<%
+  response.setHeader("Cache-Control","no-cache");
+  response.setHeader("Pragma","no-cache");
+  response.setDateHeader ("Expires", -1);
+%>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -8,13 +13,32 @@
   <link rel="stylesheet" href="colors.css">
 
   <script src="validator.js" type="text/javascript"></script>
+  <script src="zoneDrawer.js" type="text/javascript"></script>
+  <script src="mouseListener.js" type="text/javascript"></script>
 
-  <jsp:useBean id="results" class="server.ResultsHolder" scope="session">
-    <jsp:setProperty name="results" property="*"></jsp:setProperty>
+  <jsp:useBean id="results" class="server.ResultsHolder" scope="application">
   </jsp:useBean>
+
+  <%
+    if(request.getParameter("refresh")!=null)results.refresh();
+  %>
+
+  <script>
+    function clearForm() {
+      document.forms["form1"].reset();
+    }
+  </script>
+  <script>
+    function drawPoints() {
+      <%=results.drawPoints()%>
+    }
+  </script>
+
+
 </head>
 
-<body>
+<body onload="clearForm();addListener('zoneCanvas'); drawZone('zoneCanvas','R')"
+onclick="clearMessage()">
 <header>
   <h2>Мосягин Иван Денисович - P3212</h2>
   <h3>Вариант: 212305</h3>
@@ -24,9 +48,7 @@
 
   <h3>Введите X, Y, R и узнайте, попала ли точка в синюю зону. </h3>
 
-  <%=session.getAttribute("HELLO")!=null?session.getAttribute("HELLO"):"WHAT?"%>
-
-  <form action="control" method="get">
+  <form name="form1" action="control" method="get">
 
     <p>Выберите одно значение X для проверки</p>
     <input type="button" onclick="choseX(-2)" value=-2>
@@ -70,9 +92,14 @@
     <p><button name="submit_btn" disabled type="submit" id="submit">Проверить</button></p>
 
   </form>
-    <img src="zone.png" alt="Рабочая зона">
+
+  <canvas height="300px" width="300px" id="zoneCanvas"></canvas>
+
+  <p><a href=index.jsp?refresh= >Очистить историю</a></p>
 
 </div>
-    <%=results.toString()%>
+  <span id="error-message"></span>
+
+  <%=results.toString()%>
 </body>
 </html>

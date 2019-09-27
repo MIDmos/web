@@ -5,8 +5,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.util.Arrays;
+
 
 public class ControllerServlet extends HttpServlet {
 
@@ -14,27 +13,22 @@ public class ControllerServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //TODO replace method if need
-        System.out.println("CS - POST method");
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //TODO replace method if need
-        System.out.println("CS - GET method");
 
 
-        System.out.println("START");
-        System.out.println(req.getParameter("y"));
-        System.out.println(req.getParameter("x"));
-        System.out.println(Arrays.toString(req.getParameterValues("r")));
-        boolean hi = AttributeSetter.validateY(req,req.getParameter("y"));
-        hi&= AttributeSetter.validateX(req,req.getParameter("x"));
-        hi&= AttributeSetter.validateR(req,req.getParameterValues("r"));
-        System.out.println("CHECK (VALIDATION - CORRCT?) = "+hi);
+        boolean forAreaCheck = req.getParameter("x")!=null&&
+                req.getParameter("y")!=null&&
+                req.getParameterValues("r")!=null;
 
-        if(hi){
+        if(forAreaCheck){
             req.getRequestDispatcher("check").forward(req,resp);
         }else
         req.getRequestDispatcher("index.jsp").forward(req, resp);
     }
+    //control?x=0.5&y=1&r=2.5&submit_btn=
+    //x=0.4779&y=0.4779&r=3&click=true
 }

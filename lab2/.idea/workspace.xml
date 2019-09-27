@@ -2,11 +2,40 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="lab2" />
+      <artifact name="lab2:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f019bc10-f03f-4017-8053-062694440d78" name="Default Changelist" comment="" />
+    <list default="true" id="f019bc10-f03f-4017-8053-062694440d78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2/lab2.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2/lab2.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/AreaCheckServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/AreaCheckServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/AttributeSetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/AttributeSetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/ControllerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/LoginBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/ResultsHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/WEB-INF/classes/server/ResultsHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab2_war_exploded/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/AreaCheckServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/server/AreaCheckServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/AttributeSetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/server/AttributeSetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/server/ControllerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/LoginBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/server/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/server/ResultsHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/server/ResultsHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/AreaCheckServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/AreaCheckServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/LoginBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ResultsHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ResultsHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/validator.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,14 +47,32 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JavaeeView">
     <option name="showModules" value="false" />
@@ -38,18 +85,21 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1R5fmVpW8R78DVxPgkdlwEtGejr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.6" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OpServer/OSPanel/domains/lab1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab2.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Erlang External Tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -159,11 +209,30 @@
       <workItem from="1569083301789" duration="577000" />
       <workItem from="1569084112659" duration="44000" />
       <workItem from="1569084174128" duration="12918000" />
-      <workItem from="1569141278914" duration="2226000" />
+      <workItem from="1569141278914" duration="11106000" />
+      <workItem from="1569176701807" duration="3168000" />
+      <workItem from="1569437190952" duration="55000" />
+      <workItem from="1569437317500" duration="190000" />
+      <workItem from="1569437528339" duration="8040000" />
+      <workItem from="1569497821303" duration="17493000" />
+      <workItem from="1569569741699" duration="1926000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

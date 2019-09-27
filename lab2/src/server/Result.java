@@ -3,17 +3,43 @@ package server;
 public class Result {
     private final float x,y,r;
     private final boolean inside;
+    private final String color;
 
     public Result(float x, float y, float r, boolean inside) {
         this.x = x;
         this.y = y;
         this.r = r;
         this.inside = inside;
+        int key = (int)(r*2);
+        switch (key){
+            case 2:
+                color="#00FF00";
+                break;
+            case 3:
+                color="#0000FF";
+                break;
+            case 4:
+                color="#FFF000";
+                break;
+            case 5:
+                color="#F000FF";
+                break;
+            default:
+                color="#FF0000";
+        }
+
     }
 
     @Override
     public String toString() {
         return "<tr>"+tdString(x)+ tdString(y) + tdString(r)+ tdString(inside?"Есть пробитие":"Мимо")+"</tr>";
+    }
+
+    public String drawPoint(){
+        String strR = String.format("%.1f",r).replace(",",".");
+        String strX = String.format("%.4f",x/r).replace(",",".");
+        String strY = String.format("%.4f",y/r).replace(",",".");
+        return String.format("drawPoint(%s,%s,%s,\'%s\');",strR,strX,strY,color);
     }
 
     private String tdString(Object s){

@@ -1,12 +1,13 @@
 let validX, validY, validR = false;
 
-const user_r = [];
-
+let user_r = [];
 let user_x = 0;
 let user_y = 0;
+let firstTime=true;
 
 function putR(val) {
 
+    firstTime=false;
     let new_val = true;
     for(let i = 0; i < user_r.length; i++){
         if ( user_r[i] === val) {
@@ -16,7 +17,8 @@ function putR(val) {
     }
     if(new_val)user_r.push(val);
     validR = user_r.length>0;
-    console.log(user_r);
+    if(user_r.length>1 || !validR)drawZone('zoneCanvas','R');
+    else drawZone('zoneCanvas',user_r[0]);
     enable_button();
 }
 

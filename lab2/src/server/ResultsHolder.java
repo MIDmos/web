@@ -32,4 +32,19 @@ public class ResultsHolder {
         }
         return "<div class=\"block\"><table><tr><td>X</td><td>Y</td><td>R</td><td>Результат</td></tr>"+ res.toString() +"</table></div>";
     }
+
+    public void refresh(){
+        results = new ArrayList<Result>();
+    }
+
+    public String drawPoints(){
+        if(results.size()==0)return "";
+        StringBuilder res= new StringBuilder();
+        Result[] resArray = new Result[results.size()];
+        results.toArray(resArray);
+        for(int i=resArray.length-1; i>-1;i--){
+            res.append(resArray[i].drawPoint());
+        }
+        return  res.toString();
+    }
 }

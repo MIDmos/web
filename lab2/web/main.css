@@ -17,18 +17,21 @@ form{
     width: fit-content;
     border-radius: 20px;
 }
-
 .block{
     margin: 20px auto;
-    max-width: 800px;
     min-height: 100px;
+    max-width: 800px;
     text-align: center;
     border-radius: 15px;
     height: fit-content;
-    padding: 15px;
+    padding: 15px 50px;
 }
 #margin{
     margin-bottom: 50px;
+}
+#error-message{
+    text-align: center;
+    margin: 30px auto;
 }
 
 button{
@@ -57,8 +60,9 @@ th {
     min-width: 20px;
 }
 
-.block img{
+.block canvas{
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 input{
@@ -80,6 +84,10 @@ input[type=text]{
 }
 .check-box-block input{
     margin: 0 12px;
+}
+canvas{
+    width: 200px;
+    height: 200px;
 }
 
 #submit{

@@ -13,7 +13,9 @@ form{
     background : linear-gradient(120deg,#9DC0C4,#296573);
     color: #EFFDFF;
 }
-
+#error-message{
+    color: crimson;
+}
 .invalid_field{
     background-color: lightcoral;
 }
@@ -25,7 +27,7 @@ a{
 }
 
 /*Селектор потомства*/
-.block img{
+.block canvas{
     border: 2px solid #1f2030;
 }
 
