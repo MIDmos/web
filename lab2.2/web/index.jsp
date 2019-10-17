@@ -1,9 +1,4 @@
 <%@ page pageEncoding="UTF-8" %>
-<%
-  response.setHeader("Cache-Control","no-cache");
-  response.setHeader("Pragma","no-cache");
-  response.setDateHeader ("Expires", -1);
-%>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -42,7 +37,7 @@
 onclick="clearMessage()">
 <header>
   <h2>Мосягин Иван Денисович - P3212</h2>
-  <h3>Вариант: 212304</h3>
+  <h3>Вариант: 212303</h3>
 </header>
 
 <div class="block">

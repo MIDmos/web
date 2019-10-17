@@ -75,7 +75,6 @@ function drawZone(canvasId,radius) {
 
 
     // рисуем фигуры
-    //TODO beginPath() closePath() stroke()
     context.beginPath();
     context.arc(150, 150, 120, -Math.PI/2, 0); // круг
     context.lineTo(150, 150);

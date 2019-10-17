@@ -5,7 +5,7 @@ function sendRequest() {
     let url = "control";
     let params = "x="+click_x.toFixed(4)+"&y="+click_y.toFixed(4)+"&r="+user_r.toFixed(4);
 
-    http.open('GET', url+'?'+params);
+    http.open('POST', url+'?'+params);
     http.onload = function(){
         document.location.href='index.jsp';
     };
@@ -36,4 +36,16 @@ function showMessage(messageHTML) {
 }
 function clearMessage() {
     if(validR)showMessage('');
+}
+
+
+function drawPoint(rad,relX,relY,color) {
+    if(firstTime || user_r === rad) {
+        let canvas = document.getElementById("zoneCanvas");
+        let context = canvas.getContext("2d");
+        context.fillStyle = color;
+        context.beginPath();
+        context.arc(relX * 120 + 150, 150 - relY * 120, 4, 0, 2 * Math.PI);
+        context.fill();
+    }
 }

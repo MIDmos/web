@@ -10,13 +10,7 @@ import java.io.Writer;
 import static java.lang.Math.abs;
 
 public class AreaCheckServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //TODO replace this if need
-    }
-
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //TODO replace this if need
-
         RequestParser parser = new RequestParser(request);
 
         ResultsHolder holder = (ResultsHolder) request.getServletContext().getAttribute("results");
@@ -45,7 +39,6 @@ public class AreaCheckServlet extends HttpServlet {
         out.write(holder.toString());
         out.write("<a href=\"index.jsp\">back to input</a>");
         out.write("</body></html>");
-//        response.sendRedirect("index.jsp");
     }
 
     private boolean inside(float x, float y, float r){
